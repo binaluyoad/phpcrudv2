@@ -1,5 +1,16 @@
 <?php
 $current_page = basename($_SERVER['PHP_SELF']);
+// session_start();
+
+// if (isset($_SESSION['username']) && isset($_SESSION['account_type'])){
+//   if ($_SESSION['account_type'] == 0) {
+//     header('location:index.php');
+//   } else if ($_SESSION['account_type'] == 1){
+//     header('location:user_account.php');
+//   }
+//   exit();
+
+//s}
 ?>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
